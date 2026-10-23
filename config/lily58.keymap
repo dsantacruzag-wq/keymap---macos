@@ -41,9 +41,9 @@
 
             bindings = <
 &kp ESCAPE        &kp F1  &kp F2  &kp F3     &kp F4        &kp F5                                       &kp F6           &kp F7     &kp F8     &kp F9    &kp F10       &kp BACKSPACE
-&kp TAB           &kp Q   &kp W   &trans     &trans        &bt BT_SEL 0                                 &trans           &trans     &trans     &kp F10   &kp F11       &kp DELETE
+&kp TAB           &kp Q   &kp W   &trans     &bt BT_CLR    &bt BT_SEL 0                                 &trans           &trans     &trans     &kp F10   &kp F11       &kp DELETE
 &kp LEFT_SHIFT    &trans  &trans  &trans     &trans        &bt BT_SEL 1                                 &trans           &trans     &kp ASTRK  &trans    &kp UP_ARROW  &kp ENTER
-&kp LEFT_CONTROL  &kp AT  &trans  &kp C      &kp V         &trans        &bt BT_CLR      &kp DELETE     &kp PRINTSCREEN  &kp MINUS  &kp PLUS   &kp LEFT  &kp DOWN      &kp RIGHT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C      &kp V         &trans        &tog 0          &kp DELETE     &kp PRINTSCREEN  &kp MINUS  &kp PLUS   &kp LEFT  &kp DOWN      &kp RIGHT
                                   &kp LCTRL  &kp LEFT_ALT  &kp SPACE     &kp LEFT_GUI    &kp RIGHT_GUI  &kp SPACE        &tog 0     &kp RCTRL
             >;
 
